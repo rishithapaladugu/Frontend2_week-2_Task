@@ -1,0 +1,32 @@
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-left: 35%;
+    position: absolute;
+
+}
+
+#form>input{
+    padding: 5px;
+    
+}
+#submit{
+    width: 90px;
+    margin: auto;
+    padding: 5px;
+}
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+#confirmationWindow{
+    background: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
