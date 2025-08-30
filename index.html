@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <form id="signupForm">
+        <div id="form">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <p id="emailMessage" class="error"></p>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <p id="passwordMessage" class="error"></p>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+
+    <div id="confirmationWindow" style="display:none;">
+        <h2>You entered</h2>
+        <p id="userEmail"></p>
+        <p id="userPassword"></p>
+        <button id="ok">Ok</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
